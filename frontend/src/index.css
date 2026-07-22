@@ -1,0 +1,20 @@
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background-color: #f5f6f8;
+}
+
+.status-badge-PENDING {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.status-badge-APPROVED {
+  background-color: #198754;
+}
+
+.status-badge-REJECTED {
+  background-color: #dc3545;
+}
