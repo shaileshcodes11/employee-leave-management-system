@@ -25,18 +25,18 @@ leave-management-system/
 
 3. Create a PostgreSQL database
    ```sql
-   CREATE DATABASE leave_management_db;
+   CREATE DATABASE leave_management;
    ```
 
 4. `.env`   fill in your own values
    ```bash
-   cp .env.example .env
+   cp  .env
    ```
 
 5. Run migrations
    ```bash
 =======
-   cp .env.example .env      # then edit with your DB credentials
+   cp  .env      # then edit with your DB credentials
 >>>>>>> 66b22bb (Project is in fully working condition)
    python manage.py makemigrations
    python manage.py migrate
@@ -48,7 +48,7 @@ leave-management-system/
    ```bash
    cd frontend
    npm install
-   cp .env.example .env
+   cp  .env
    npm run dev
    ```
 
